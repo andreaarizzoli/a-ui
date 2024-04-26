@@ -18,7 +18,7 @@ export const StyledAButton = styled.button<ButtonProps>`
   font-weight: bold;
   border-radius: 10px;
   display: inline-block;
-  color: ${(props) => (props.primary ? "#fff" : "#000")};
+  color: ${(props) => (props.primary ? "#f4e1e1" : "#000")};
   background-color: ${(props) => (props.primary ? "#FF5655" : "#f4c4c4")};
   padding: ${(props) =>
     props.size === "small"
