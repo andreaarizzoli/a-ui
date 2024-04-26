@@ -67,6 +67,6 @@
     "react": "^18.2.0"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@{andreaarizzoli}"
+    "registry": "https://npm.pkg.github.com/@andreaarizzoli"
   }
 }
