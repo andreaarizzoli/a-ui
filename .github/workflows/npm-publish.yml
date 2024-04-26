@@ -22,7 +22,9 @@ jobs:
         run: npm install
 
       - name: Set npm config
-        run: npm config set '//npm.pkg.github.com/:_authToken' ${{secrets.NPM_AUTH_TOKEN}}
+        run: |
+          npm config set registry https://npm.pkg.github.com/@andreaarizzoli
+          npm config set '//npm.pkg.github.com/:_authToken' ${{secrets.NPM_AUTH_TOKEN}}
 
       - name: Publish to npm
         run: npm publish --access public
