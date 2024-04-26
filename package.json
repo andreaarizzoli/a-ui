@@ -1,5 +1,5 @@
 {
-  "name": "andreaarizzoli/a-ui",
+  "name": "@andreaarizzoli/a-ui",
   "version": "1.0.0",
   "author": "Andrea Arizzoli",
   "license": "ISC",
@@ -67,6 +67,6 @@
     "react": "^18.2.0"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/andreaarizzoli"
+    "registry": "https://npm.pkg.github.com/@andreaarizzoli"
   }
 }
