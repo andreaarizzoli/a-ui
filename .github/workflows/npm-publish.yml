@@ -24,9 +24,9 @@ jobs:
       - name: Set npm config
         run: |
           npm config set registry https://npm.pkg.github.com/@andreaarizzoli
-          npm config set '//npm.pkg.github.com/:_authToken' ${{secrets.NPM_AUTH_TOKEN_1}}
+          npm config set '//npm.pkg.github.com/:_authToken' ${{secrets.NPM_AUTH_TOKEN}}
 
       - name: Publish to npm
         run: npm publish --access public
         env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN_1}}
+          NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
